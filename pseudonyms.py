@@ -1,7 +1,6 @@
 import sys, random
 
-print("Welcome to the Psych 'Sidekick Name Picker.'\n")
-print("A name just like Sean would pick for Gus:\n\n")
+print("\nWelcome to the Silly Name Generator.'\n")
 
 first = ('Baby Oil', 'Bad News', 'Big Burps', "Bill 'Beenie-Weenie'",
          "Bob 'Stinkbug'", 'Bowel Noises', 'Boxelder', "Bud 'Lite'",
@@ -40,12 +39,12 @@ while True:
 
     lastName = random.choice(last)
 
-    print("\n\n")
+    print("\n")
     print(f"{firstName} {lastName}")
-    print("\n\n")
+    print("\n")
 
-    try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
+    try_again = input("\nTry again? (Press Enter else n to quit) ")
+    print("\n")
+    
     if try_again.lower() == "n":
         break
-
-input("\nPress Enter to exit.")
